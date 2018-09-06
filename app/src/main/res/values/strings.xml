@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RetrofitExample</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="exist_user">Existing User? Please Login</string>
+    <string name="email_mobile">Email / Mobile</string>
+    <string name="log_in">Login</string>
+    <string name="new_user">New User? Please Register</string>
+</resources>
