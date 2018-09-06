@@ -83,6 +83,7 @@ public class LoginActivity extends AppCompatActivity {
                     if (null != user) {
                         Gson gson = new Gson();
                         String userStr = gson.toJson(user);
+                        Log.d(TAG, "User Data :" + userStr);
                         localStorage.setUserLogin(userStr);
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         finish();
