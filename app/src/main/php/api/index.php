@@ -28,7 +28,7 @@ $user_id = NULL;
 $app->post('/users/register', 'registerUser');
 $app->post('/users/login', 'loginUser');
 $app->post('/users/uploadimage', 'authenticateUser', 'uploadImage');
-$app->put('/users/user_details', 'authenticateUser', 'updateUsers');
+$app->put('/users/:id', 'authenticateUser', 'updateUsers');
 
 
 /* *
@@ -134,11 +134,11 @@ function uploadImage(){
 /* *
  * URL: http://localhost/slimapi/api/users/user_details
  * Parameters: dob, gender, address
- * Method: POST
+ * Method: PUT
  * */
 function updateUsers()
 {
-    verifyRequiredParams(array('dob', 'gender', 'address'));
+    verifyRequiredParams(array('dob', 'gender'));
     $app = \Slim\Slim::getInstance();
     $jsonData = $app->request->getBody();
     $inputData = json_decode($jsonData);
@@ -153,7 +153,8 @@ function updateUsers()
     if ($res == 0) {
         $response["error"] = false;
         $response["message"] = "You are successfully Updated";
-        echoResponse(201, $response);
+        $response['user'] = $opUser->getUserDetails($user_id);
+        echoResponse(200, $response);
        // $opUser->SendMailViaSmtp($email, $name);
     } else if ($res == 1) {
         $response["error"] = true;

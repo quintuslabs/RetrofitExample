@@ -15,4 +15,8 @@
     <string name="email_mobile">Email / Mobile</string>
     <string name="log_in">Login</string>
     <string name="new_user">New User? Please Register</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="internal_storage">Internal Storage</string>
 </resources>

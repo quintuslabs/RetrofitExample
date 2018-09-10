@@ -15,6 +15,9 @@ public class User {
     private String dob;
     private String api_key;
     private String image;
+    private String address;
+
+
 
 
     public User() {
@@ -114,5 +117,13 @@ public class User {
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

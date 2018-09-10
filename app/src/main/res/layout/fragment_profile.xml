@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/pf_image_RL"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_70dp">
+
+                            <ImageView
+                                android:id="@+id/pf_image"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp" />
+
+                            <Button
+                                android:id="@+id/fpe_select_image"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/ic_menu_camera" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/pf_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10dp"
+                            android:text="Santosh kumar dash"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_18dp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/pf_email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10dp"
+                            android:text="santoshnet2016@gmail.com"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_18dp"
+                            android:textStyle="normal"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:id="@+id/pf_mobile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10dp"
+                            android:text="9778178337"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_18dp"
+                            android:textStyle="bold"
+                            android:typeface="monospace" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/pf_dob"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginBottom="@dimen/_10dp"
+                                android:layout_marginTop="@dimen/_10dp"
+                                android:clickable="true"
+                                android:editable="false"
+                                android:hint="DOB"
+                                android:lineSpacingExtra="3dp"
+                                android:text="12/04/1992"
+                                android:textColor="@color/black"
+                                android:textColorHint="@color/black"
+                                android:textSize="@dimen/text_size_18dp"
+                                android:typeface="monospace" />
+
+                            <RadioGroup
+                                android:id="@+id/pf_gender"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/pf_male"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Male"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/text_size_18dp" />
+
+                                <RadioButton
+                                    android:id="@+id/pf_female"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/_20dp"
+                                    android:text="FeMale"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/text_size_18dp" />
+                            </RadioGroup>
+
+                            <EditText
+                                android:id="@+id/fp_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:gravity="bottom"
+                                android:hint="Address"
+                                android:inputType="textPostalAddress" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/pf_back"
+            android:layout_width="@dimen/_25dp"
+            android:layout_height="@dimen/_25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_marginRight="@dimen/_5dp"
+            android:layout_marginTop="@dimen/_25dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_25dp"
+            android:text="Edit Profile"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20dp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/pf_success"
+            android:layout_width="@dimen/_25dp"
+            android:layout_height="@dimen/_25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/_5dp"
+            android:layout_marginRight="@dimen/_5dp"
+            android:layout_marginTop="@dimen/_25dp"
+            android:background="@drawable/ic_check_black_24dp" />
+    </RelativeLayout>
+</FrameLayout>
+
