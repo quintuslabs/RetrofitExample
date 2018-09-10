@@ -35,7 +35,7 @@ Say what the step will be
 
 ```
 ## ScreenShots
-<img src="screenshot/screen1.gif" width="40%" hspace="20"><img src="screenshot/screen2.gif" width="40%" hspace="20">
+<img src="screenshot/screen1.gif" width="40%" hspace="20"><img src="screenshot/screen2.gif" width="40%" hspace="20"><img src="screenshot/screen3.gif" width="40%" hspace="20">
 
 
 
