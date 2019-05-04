@@ -26,7 +26,7 @@ Say what the step will be
 3. Paste in your folder
 4.start xampp controlpannel
 5. start tomcat,mysql & apache
-
+6. Url:- http://<your ipaddress>/api-directory-name
 
 ```
 
