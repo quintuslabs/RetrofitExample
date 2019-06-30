@@ -60,7 +60,10 @@ import retrofit2.Response;
 
 
 /**
- * A simple {@link Fragment} subclass.
+ * RetrofitExample
+ * https://github.com/quintuslabs/RetrofitExample
+ * Created on 18-Feb-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
 public class ProfileFragment extends Fragment {
     private static final int MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE = 10;

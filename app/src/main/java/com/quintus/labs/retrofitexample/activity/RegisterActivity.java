@@ -19,7 +19,12 @@ import com.quintus.labs.retrofitexample.util.NetworkCheck;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
+/**
+ * RetrofitExample
+ * https://github.com/quintuslabs/RetrofitExample
+ * Created on 18-Feb-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+ */
 public class RegisterActivity extends AppCompatActivity {
     public static final String TAG = "RegisterActivity==>";
     EditText name, email, mobile, password;

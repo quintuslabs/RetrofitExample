@@ -1,7 +1,12 @@
 package com.quintus.labs.retrofitexample.model;
 
 import com.google.gson.annotations.SerializedName;
-
+/**
+ * RetrofitExample
+ * https://github.com/quintuslabs/RetrofitExample
+ * Created on 18-Feb-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+ */
 public class UploadResponse {
     @SerializedName("error")
     private Boolean error;

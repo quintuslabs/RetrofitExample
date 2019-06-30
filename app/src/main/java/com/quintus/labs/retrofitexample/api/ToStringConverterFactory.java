@@ -1,7 +1,10 @@
 package com.quintus.labs.retrofitexample.api;
 
 /**
- * Created by TaNMay on 29/09/16.
+ * RetrofitExample
+ * https://github.com/quintuslabs/RetrofitExample
+ * Created on 18-Feb-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
 
 import java.io.IOException;

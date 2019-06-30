@@ -1,4 +1,10 @@
 <resources>
+    <!--
+   * RetrofitExample
+    * https://github.com/quintuslabs/RetrofitExample
+    * Created on 10-june-2018.
+    * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+    -->
     <string name="app_name">RetrofitExample</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

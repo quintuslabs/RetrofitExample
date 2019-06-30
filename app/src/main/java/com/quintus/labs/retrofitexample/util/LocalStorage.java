@@ -5,7 +5,10 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
 /**
- * Created by BAPUNU on 02-04-2017.
+ * RetrofitExample
+ * https://github.com/quintuslabs/RetrofitExample
+ * Created on 18-Feb-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
 public class LocalStorage {
     private static final String IS_USER_LOGIN = "IsUserLoggedIn";

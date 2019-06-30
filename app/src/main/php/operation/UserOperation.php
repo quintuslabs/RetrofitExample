@@ -1,4 +1,10 @@
 <?php
+/**
+ * RetrofitExample
+ * https://github.com/quintuslabs/RetrofitExample
+ * Created on 10-june-2018.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+ */
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
     require '../PHPMailer/src/Exception.php';
